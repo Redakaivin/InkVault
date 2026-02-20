@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #121212;
+  color: #eaeaea;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+input {
+  background: #1e1e1e;
+  color: #eaeaea;
+  border: 1px solid #333;
+}
+
+button {
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 28px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.card h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.card input {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.card button {
+  width: 100%;
+}
+
+.entries-container {
+  width: 800px;
+  max-width: 90%;
+}
+
+.entries-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.entries-header button {
+  margin-left: 8px;
+}
+
+.entry-card {
+  margin-bottom: 16px;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  margin-right: 8px;
+}
+
+.secondary {
+  background: #333;
+}
+
+.empty {
+  color: #aaa;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.muted {
+  color: #b50303;
+  font-size: 0.9rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.muted {
+  color: #ffffff;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.success {
+  color: #4ade80;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.error {
+  color: #ff6b6b;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.entry-editor textarea {
+  font-family: "Georgia", serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  background: #181818;
+  padding: 16px;
+}
